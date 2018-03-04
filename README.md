@@ -1,4 +1,7 @@
 # Virtual-Library-Tour-Game
 Student project for University of Greenwich - Games &amp; Development
 
-Read me file - Testing the commited changes.
+--- Group Members ---
+Team Leader/Designer/Moddeller/Programmer: Kyle
+Modeller/Programmer: Liban
+Sound Designer/Programmer: Ejay
