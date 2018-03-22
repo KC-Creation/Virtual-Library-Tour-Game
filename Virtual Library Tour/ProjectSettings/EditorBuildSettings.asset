@@ -4,4 +4,7 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/VLT Content/Scenes/VTL Game.unity
+    guid: 841e7597434606149b0242e4fc8f015e

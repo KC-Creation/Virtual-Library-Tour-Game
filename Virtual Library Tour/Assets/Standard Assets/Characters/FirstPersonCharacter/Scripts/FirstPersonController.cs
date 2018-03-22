@@ -78,6 +78,12 @@ namespace UnityStandardAssets.Characters.FirstPerson
             }
 
             m_PreviouslyGrounded = m_CharacterController.isGrounded;
+
+            // Quit Game
+            if (Input.GetKey("escape"))
+            {
+                Application.Quit();
+            }
         }
 
         private void FixedUpdate()
