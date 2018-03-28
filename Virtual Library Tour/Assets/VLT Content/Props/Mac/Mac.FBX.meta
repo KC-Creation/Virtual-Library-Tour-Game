@@ -32,6 +32,7 @@ ModelImporter:
     2300008: Line002
     2300010: Line003
     2300012: Mac
+    2300014: //RootNode
     3300000: Box001
     3300002: Box004
     3300004: Box005
@@ -39,6 +40,7 @@ ModelImporter:
     3300008: Line002
     3300010: Line003
     3300012: Mac
+    3300014: //RootNode
     4300000: Mac
     4300002: glass
     4300004: Box001

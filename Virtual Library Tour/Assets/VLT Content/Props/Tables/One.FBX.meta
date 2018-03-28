@@ -16,9 +16,11 @@ ModelImporter:
     2300000: Box001
     2300002: Cylinder001
     2300004: Cylinder002
+    2300006: //RootNode
     3300000: Box001
     3300002: Cylinder001
     3300004: Cylinder002
+    3300006: //RootNode
     4300000: Box001
     4300002: Cylinder001
     4300004: Cylinder002
@@ -50,7 +52,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 0.65
     meshCompression: 0
     addColliders: 0
     importVisibility: 1

@@ -12,7 +12,6 @@ public class InteractionConversation : MonoBehaviour {
     public string[] TriggerQuestions; // Write as string with commas seperating in the Inspector.
 
     private bool isUIDisplaying; // A true and false statement to check if the UI is display or not.
-    private GameObject Closet;
     private GameObject Player; // Creates a GameObject named "Player".
 
     public Text Question0, Question1, Question2, Reply;
@@ -76,7 +75,6 @@ public class InteractionConversation : MonoBehaviour {
 
     void QsAs(int Subject)
     {
-        print(Subject);
         QuestionPanel.SetActive(true);
         string Qs = TriggerQuestions[Subject];
         string[] QuestionAnswer = Qs.Split(',');

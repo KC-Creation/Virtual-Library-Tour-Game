@@ -12,11 +12,10 @@ public class InteractionReading : MonoBehaviour {
     public string[] TriggerTexts;
 
     private bool isUIDisplaying;
-    private GameObject Closet;
     private GameObject Player;
 
     public Text Texts0;
-    public GameObject ReadingPanel, HintPanel;
+    public GameObject ReadingPanel, HintPanel2;
     FirstPersonController FPC;
 
 	// Use this for initialization
@@ -39,6 +38,7 @@ public class InteractionReading : MonoBehaviour {
             if (thisDistance < CloseDistance)
             {
                 CloseDistance = thisDistance;
+                Subject = i;
             }
         }
 
@@ -46,20 +46,20 @@ public class InteractionReading : MonoBehaviour {
         {
             if (!isUIDisplaying)
             {
-                HintPanel.SetActive(true);
+                HintPanel2.SetActive(true);
 
                 if (Input.GetKey("e"))
                 {
                     ReadingText(Subject);
                     isUIDisplaying = true;
                     EnableMouse(true);
-                    HintPanel.SetActive(false);
+                    HintPanel2.SetActive(false);
                 }
             }
         }
         else
         {
-            HintPanel.SetActive(false);
+            HintPanel2.SetActive(false);
 
             if (isUIDisplaying)
             {
@@ -72,7 +72,6 @@ public class InteractionReading : MonoBehaviour {
 
     void ReadingText(int Subject)
     {
-        print(Subject);
         ReadingPanel.SetActive(true);
         string Txt = TriggerTexts[Subject];
         string[] Words = Txt.Split(',');
